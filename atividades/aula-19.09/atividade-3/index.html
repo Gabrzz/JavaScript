@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+     
+    <h1 class="principal">Cadastro de livros</h1>
+
+ <!--Receber livro-->
+ <label for="nomeLivro">Nome do Livro:</label>
+ <input type="text" id="nomeLivro"> <br>
+ <br>
+ <label for="autorLivro">Nome do autor:</label>
+ <input type="text" id="autorLivro">
+ <br>
+ <br>
+ <label for="numPaginas">Número de Páginas:</label>
+ <input type="number" id="numPaginas">
+ <br>
+ <br>
+ <label for="paisLancamento">País de Lançamento:</label>
+ <input type="text" id="paisLancamento">
+ <br>
+ <br>
+ <button id="gerarDiv">Gerar div com livro</button> <br> <br>
+ <br>
+  
+ <div id="livro-div">
+     <h2 id="livro-titulo"></h2>
+     <h3 id="livro-autor"></h3>
+     <p id="livro-pgs"></p>
+     <p id="livro-pais"></p>
+ </div>
+ 
+    <script src="main.js"></script>
+</body>
+</html>
